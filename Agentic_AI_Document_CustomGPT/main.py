@@ -3,22 +3,11 @@ from langchain.document_loaders import PyPDFLoader
 from langchain_google_genai import ChatGoogleGenerativeAI
 from google.api_core.exceptions import ResourceExhausted
 
-
-import os
-
-
-
 # Set the page configuration
 st.set_page_config(
     page_title="CustomGPT For Agentic AI Document",
     page_icon="📚"
 )
-
-logo_path = "logo.jpg"  # just filename if it's in same folder
-if os.path.exists(logo_path):
-    st.image(logo_path, width=150)
-else:
-    st.warning("Logo not found.")
 
 # Add a title and description
 st.title("📚 CustomGPT For Agentic AI Document")
