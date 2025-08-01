@@ -3,7 +3,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain_google_genai import ChatGoogleGenerativeAI
 from google.api_core.exceptions import ResourceExhausted
 
-st.image("Agentic_AI_Document_CustomGPT/D:\CustomGPT For Agentic AI Document\Agentic_AI_Document_CustomGPT\fccfe342-be77-487e-bbef-c363a998628e.jpg", width=150)
+st.image("D:/CustomGPT For Agentic AI Document/Agentic_AI_Document_CustomGPT/fccfe342-be77-487e-bbef-c363a998628e.jpg", width=150)
 
 # Set the page configuration
 st.set_page_config(
@@ -21,7 +21,7 @@ st.markdown("---")
 
 
 # Initialize the PDF loader with the file path
-loader = PyPDFLoader("Agentic_AI_Document_CustomGPT/agentic_ai.pdf")
+loader = PyPDFLoader("D:/CustomGPT For Agentic AI Document/Agentic_AI_Document_CustomGPT/agentic_ai.pdf")
 # Load and split the document into individual pages
 pages = loader.load_and_split()
 document = loader.load()
