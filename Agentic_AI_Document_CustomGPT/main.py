@@ -19,7 +19,7 @@ st.markdown("---")
 
 
 # Initialize the PDF loader with the file path
-loader = PyPDFLoader("agentic_ai.pdf")
+loader = PyPDFLoader("documents/agentic_ai.pdf")
 # Load and split the document into individual pages
 pages = loader.load_and_split()
 document = loader.load()
