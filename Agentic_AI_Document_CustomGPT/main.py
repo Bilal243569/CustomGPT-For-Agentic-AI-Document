@@ -30,7 +30,7 @@ st.markdown("---")
 
 
 # Initialize the PDF loader with the file path
-loader = PyPDFLoader("D:/CustomGPT For Agentic AI Document/Agentic_AI_Document_CustomGPT/agentic_ai.pdf")
+loader = PyPDFLoader("agentic_ai.pdf")
 # Load and split the document into individual pages
 pages = loader.load_and_split()
 document = loader.load()
