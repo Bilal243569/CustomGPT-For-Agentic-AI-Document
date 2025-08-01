@@ -3,6 +3,8 @@ from langchain.document_loaders import PyPDFLoader
 from langchain_google_genai import ChatGoogleGenerativeAI
 from google.api_core.exceptions import ResourceExhausted
 
+st.image("Agentic_AI_Document_CustomGPT/D:\CustomGPT For Agentic AI Document\Agentic_AI_Document_CustomGPT\fccfe342-be77-487e-bbef-c363a998628e.jpg", width=150)
+
 # Set the page configuration
 st.set_page_config(
     page_title="CustomGPT For Agentic AI Document",
